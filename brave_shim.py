@@ -54,7 +54,7 @@ if ssl_cfg.get('use_custom_ca'):
         logger.error(f"SSL: File CA Bundle non trovato a {ca_path}")
         custom_ca_status = "Error: File not found"
 
-app = FastAPI(title="Brave Search API Shim for OpenClaw (DuckDuckGo)", docs_url=None, redoc_url=None)
+app = FastAPI(title="Brave Search API Shim for OpenClaw (Dux Distributed Global Search)", docs_url=None, redoc_url=None)
 
 search_cache = {}
 

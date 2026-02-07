@@ -1,6 +1,6 @@
-# Brave Search API Shim for OpenClaw (DuckDuckGo)
+# Brave Search API Shim for OpenClaw (Dux Distributed Global Search)
 
-This project is a local proxy (shim) that emulates **Brave Search APIs** by redirecting requests to **DuckDuckGo**. It is specifically designed to allow [OpenClaw](https://github.com) (or similar agents) to operate for free, eliminating the need for official Brave API keys.
+This project is a local proxy (shim) that emulates **Brave Search APIs** by redirecting requests to **Dux Distributed Global Search**. It is specifically designed to allow [OpenClaw](https://github.com) (or similar agents) to operate for free, eliminating the need for official Brave API keys.
 
 ## 🚀 Features
 

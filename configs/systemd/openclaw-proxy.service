@@ -1,5 +1,5 @@
 [Unit]
-Description=Brave Search API Shim for OpenClaw (DuckDuckGo)
+Description=Brave Search API Shim for OpenClaw (Dux Distributed Global Search)
 After=network.target
 
 [Service]
