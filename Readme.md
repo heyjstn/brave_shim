@@ -80,6 +80,20 @@ curl -G "http://localhost:8000/res/v1/local/pois" --data-urlencode "q=pizza in N
 
 ## 🔗 OpenClaw Integration
 
+Enable web search tool and set a fake api key:
+
+```json
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "brave",
+        "apiKey": "none_key"
+      }
+    }
+  },
+```
+
 Apply the patch to redirect OpenClaw traffic to the local shim:
 
 ```bash
